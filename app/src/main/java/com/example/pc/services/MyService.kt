@@ -23,6 +23,7 @@ class MyService:Service() {
     }
 
     override fun onDestroy() {
+       // mp?.stop()
         mp?.stop()
         mp?.release()
         super.onDestroy()
